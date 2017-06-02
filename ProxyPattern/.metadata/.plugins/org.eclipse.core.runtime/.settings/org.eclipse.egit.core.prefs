@@ -1,3 +1,4 @@
 GitRepositoriesView.GitDirectories=D\:\\DesignPatterns\\.git;
 GitRepositoriesView.GitDirectories.relative=D\:\\DesignPatterns\\.git;
+core_preferredMergeStrategy=jgit-default-mergeStrategy
 eclipse.preferences.version=1

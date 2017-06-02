@@ -33,3 +33,67 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-02 22:14:41.754
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-02 22:14:41.783
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-02 22:14:41.869
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-06-02 22:14:41.874
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-06-02 22:41:27.207
+!MESSAGE An internal error occurred during: "Committing changes".
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of add command
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:247)
+	at org.eclipse.egit.core.op.CommitOperation.addUntracked(CommitOperation.java:225)
+	at org.eclipse.egit.core.op.CommitOperation.access$4(CommitOperation.java:212)
+	at org.eclipse.egit.core.op.CommitOperation$1.run(CommitOperation.java:197)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.egit.core.op.CommitOperation.execute(CommitOperation.java:208)
+	at org.eclipse.egit.ui.internal.commit.CommitJob.run(CommitJob.java:111)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: 另一个程序已锁定文件的一部分，进程无法访问。
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:303)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:228)
+	... 8 more
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-06-02 22:43:48.293
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\java1.8\lib\charsets.jar
+  [+] C:\Program Files\java1.8\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\java1.8\lib\ext\cldrdata.jar
+  [+] C:\Program Files\java1.8\lib\ext\dnsns.jar
+  [+] C:\Program Files\java1.8\lib\ext\jaccess.jar
+  [+] C:\Program Files\java1.8\lib\ext\jfxrt.jar
+  [+] C:\Program Files\java1.8\lib\ext\localedata.jar
+  [+] C:\Program Files\java1.8\lib\ext\nashorn.jar
+  [+] C:\Program Files\java1.8\lib\ext\sunec.jar
+  [+] C:\Program Files\java1.8\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\java1.8\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\java1.8\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\java1.8\lib\ext\zipfs.jar
+  [+] C:\Program Files\java1.8\lib\jce.jar
+  [+] C:\Program Files\java1.8\lib\jfr.jar
+  [+] C:\Program Files\java1.8\lib\jsse.jar
+  [+] C:\Program Files\java1.8\lib\resources.jar
+  [+] C:\Program Files\java1.8\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)

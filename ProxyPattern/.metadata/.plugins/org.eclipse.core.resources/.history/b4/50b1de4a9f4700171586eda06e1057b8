@@ -1,0 +1,8 @@
+package com.expale;
+
+public class GamePlayer implements IGamePlayer{
+	private String name="";
+	public GamePlayer(String _name){
+		this.name=_name;
+	}
+}
