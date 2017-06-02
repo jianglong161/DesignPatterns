@@ -1,0 +1,20 @@
+INDEX VERSION 1.129+D:\DesignPatterns\ProxyPattern\.metadata\.plugins\org.eclipse.jdt.core
+726873414.index
+2407490316.index
+1331795956.index
+2682020844.index
+2055404390.index
+961581425.index
+3521223151.index
+4082507167.index
+798283729.index
+3446427093.index
+3498475430.index
+841538822.index
+3337209659.index
+1882578882.index
+1086908865.index
+2116038289.index
+2826876110.index
+748710886.index
+680502266.index
