@@ -11,9 +11,9 @@ import java.util.Date;
 public class Client {
 	public static void main(String[] args) {
 		//定义一个痴迷的玩家
-		IGamePlayer gamePlayer=new GamePlayer("张三");
+		//IGamePlayer gamePlayer=new GamePlayer("张三");
 		//定义故意代练者
-		IGamePlayer proxy=new GamePlayerProxy(gamePlayer);
+		IGamePlayer proxy=new GamePlayerProxy("张三");
 		//开始打游戏记录时间
 		SimpleDateFormat simpleDateFormat=
 				new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

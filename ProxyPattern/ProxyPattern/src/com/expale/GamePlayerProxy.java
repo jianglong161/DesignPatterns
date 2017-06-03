@@ -7,6 +7,13 @@ package com.expale;
 public class GamePlayerProxy implements IGamePlayer{
 	private IGamePlayer iGamePlayer;
 	//通过构造函数传递要对谁进行代理
+	public GamePlayerProxy(String name ){
+		try {
+			iGamePlayer=new GamePlayer(this, name);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
 	public GamePlayerProxy(IGamePlayer iGamePlayer){
 		this.iGamePlayer=iGamePlayer;
 	}
