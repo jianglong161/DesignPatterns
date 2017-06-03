@@ -1,0 +1,5 @@
+package com.constraintProxy;
+
+public interface IGamePlayer {
+
+}
