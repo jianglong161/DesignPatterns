@@ -19,7 +19,7 @@ public class Client {
 		//动态产生一个代理者
 		IGamePlayer proxy=(IGamePlayer) Proxy.newProxyInstance
 				(classLoader, new Class[]{IGamePlayer.class}, invocationHandler);
-		proxy.login("zhangsan", "sss");
+		proxy.login("login", "sss");
 		proxy.killBoss();
 		proxy.upgrade();
 		

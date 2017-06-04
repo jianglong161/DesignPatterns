@@ -1,0 +1,13 @@
+package com.dynamicProxy;
+
+import java.lang.reflect.InvocationHandler;
+
+public class DynamicProxy<T> {
+	public static <T> T newProxyInstance(ClassLoader classLoader,
+			Class<?>[]interfaces,InvocationHandler handler) {
+		
+	}
+	if (true) {
+		(new BefoareAdvice()).exec();
+	}
+}
