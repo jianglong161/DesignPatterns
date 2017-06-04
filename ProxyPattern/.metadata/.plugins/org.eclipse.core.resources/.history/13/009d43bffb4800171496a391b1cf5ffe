@@ -18,7 +18,6 @@ public class GamePlayIH implements InvocationHandler{
 		this.obj=obj;
 	}
 	//调用被代理的方法
-	//完成对真是方法的调用
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		Object result=method.invoke(this.obj, args);
