@@ -1,9 +1,5 @@
 package com.constraintProxy;
-/**
- * 强制代理的接口类
- * @author Long
- *
- */
+
 public interface IGamePlayer {
 	//登录游戏
 	public void login(String username,String password);
