@@ -1,11 +1,7 @@
 package com.constraintProxy;
 
 import com.constraintProxy.GamePlayerProxy;
-/**
- * 强制代理的真实角色
- * @author Long
- *
- */
+
 public class GamePlayer implements IGamePlayer{
 	private String name="";
 	//我的代理是谁

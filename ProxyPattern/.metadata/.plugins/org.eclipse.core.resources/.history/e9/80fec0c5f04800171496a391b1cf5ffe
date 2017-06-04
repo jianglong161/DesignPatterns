@@ -1,11 +1,7 @@
 package com.constraintProxy;
 
 import com.constraintProxy.GamePlayerProxy;
-/**
- * 强制代理的真实角色
- * @author Long
- *
- */
+
 public class GamePlayer implements IGamePlayer{
 	private String name="";
 	//我的代理是谁
@@ -36,7 +32,7 @@ public class GamePlayer implements IGamePlayer{
 	@Override
 	public void upgrade() {
 		if(this.isProxy()){
-			System.out.println(this.name+" 又生了一级");
+			
 		}else {
 			System.out.println("请用指定的代理访问");
 		}
