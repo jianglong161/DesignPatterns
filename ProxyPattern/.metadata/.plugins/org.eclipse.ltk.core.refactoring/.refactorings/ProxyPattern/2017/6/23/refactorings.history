@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.constraintProxy.clientTrue.java&apos; to &apos;ClientTrue.java&apos;&#x0D;&#x0A;- Original project: &apos;ProxyPattern&apos;&#x0D;&#x0A;- Original element: &apos;com.constraintProxy.clientTrue.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.constraintProxy.ClientTrue.java&apos;" description="Rename compilation unit &apos;clientTrue.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.constraintProxy{clientTrue.java" name="ClientTrue.java" references="false" stamp="1496558604733" version="1.0"/>
+</session>
