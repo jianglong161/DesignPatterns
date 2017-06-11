@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.expale.IGamePlayer"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.expale.GamePlayerProxy"/>
 <fullyQualifiedTypeName name="com.expale.GamePlayer"/>
+<fullyQualifiedTypeName name="com.commonProxy.GamePlayerProxy"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="com.expale.IGamePlayer"/>
-<fullyQualifiedTypeName name="com.expale.GamePlayerProxy"/>
+<fullyQualifiedTypeName name="com.constraintProxy.GamePlayerProxy"/>
+<fullyQualifiedTypeName name="com.constraintProxy.GamePlayer"/>
+<fullyQualifiedTypeName name="com.dynamicProxy.GamePlayIH"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="com.constraintProxy.IGamePlayer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.ClassLoader"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
+<fullyQualifiedTypeName name="com.dynamicProxy.IAdvice"/>
+<fullyQualifiedTypeName name="com.dynamicProxy.Subect"/>
+<fullyQualifiedTypeName name="com.dynamicProxy.RealSubject"/>
+<fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
+<fullyQualifiedTypeName name="com.dynamicProxy.MyInvocationHandler"/>
+<fullyQualifiedTypeName name="javax.security.auth.Subject"/>
+<fullyQualifiedTypeName name="com.dynamicProxy.DynamicProxy"/>
 </qualifiedTypeNameHistroy>
