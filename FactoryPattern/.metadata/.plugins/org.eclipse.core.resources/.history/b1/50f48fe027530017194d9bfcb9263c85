@@ -1,9 +1,5 @@
 package com.ensample;
-/**
- * 定义黑色人种
- * @author Still2Almost
- *
- */
+
 public class BlackHuman implements Human{
 
 	@Override
