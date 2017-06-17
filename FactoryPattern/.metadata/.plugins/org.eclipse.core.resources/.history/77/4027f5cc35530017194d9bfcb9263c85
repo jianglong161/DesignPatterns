@@ -1,0 +1,10 @@
+package com.use;
+/**
+ * 用工厂模式延迟加载的工厂类
+ * @author Still2Almost
+ *
+ */
+import java.util.l.Map;
+public class ProductFactory {
+	private static final Map
+}

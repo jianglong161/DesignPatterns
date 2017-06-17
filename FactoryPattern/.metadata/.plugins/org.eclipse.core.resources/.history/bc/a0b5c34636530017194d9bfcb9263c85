@@ -1,0 +1,14 @@
+package com.use;
+import java.util.HashMap;
+/**
+ * 用工厂模式延迟加载的工厂类
+ * @author Still2Almost
+ *
+ */
+import java.util.Map;
+
+import com.common.Product;
+public class ProductFactory {
+	private static final Map<String, Product> prMap = new HashMap();
+	
+}
