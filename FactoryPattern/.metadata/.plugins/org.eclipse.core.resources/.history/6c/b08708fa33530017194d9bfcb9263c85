@@ -1,0 +1,5 @@
+package com.use;
+
+public class singleton {
+
+}

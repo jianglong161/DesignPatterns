@@ -1,0 +1,5 @@
+package com.use;
+
+public class SingletonFactory {
+	private static Singleton singleton;
+}
