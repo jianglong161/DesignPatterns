@@ -1,0 +1,9 @@
+package com.ensample;
+/**
+ * 人类创建工厂
+ * @author Still2Almost
+ *
+ */
+public class HumanFactory {
+
+}
