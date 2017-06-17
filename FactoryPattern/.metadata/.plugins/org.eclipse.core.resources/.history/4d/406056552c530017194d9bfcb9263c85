@@ -1,0 +1,9 @@
+package com.common;
+/**
+ * 抽象产品类
+ * @author Still2Almost
+ *
+ */
+public abstract class Product {
+
+}

@@ -1,0 +1,9 @@
+package com.common;
+
+public class Client {
+	public static void main(String[] args) {
+		//抽象工厂类   =  new  具体如何产生一个产品的对象
+		Creator creator = new ConcretrCreator();
+		Product product = creator.creator(ConcreatorProduect1.class)
+	}
+}
