@@ -1,0 +1,9 @@
+package com.ensample;
+/**
+ * 
+ * @author Still2Almost
+ *
+ */
+public interface Human {
+
+}
