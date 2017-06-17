@@ -1,0 +1,13 @@
+package com.ensample;
+/**
+ * 定义女娲类，client
+ * @author Still2Almost
+ *
+ */
+public class NVWa {
+	public static void main(String[] args) {
+		//声明八卦炉
+		AbstractHumanFactory abstractHumanFactory =
+				new HumanFactory();
+	}
+}

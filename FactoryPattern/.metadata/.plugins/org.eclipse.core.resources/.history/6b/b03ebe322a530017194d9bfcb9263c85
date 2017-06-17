@@ -1,0 +1,16 @@
+package com.ensample;
+/**
+ * 定义女娲类，client
+ * @author Still2Almost
+ *
+ */
+public class NVWa {
+	public static void main(String[] args) {
+		//声明八卦炉
+		AbstractHumanFactory abstractHumanFactory =
+				new HumanFactory();
+		//女娲第一次造人火候不是造车了白人
+		System.out.println("第一批创造的是白人");
+		Human whiteman = abstractHumanFactory.createHuman(WhiteHuman.class);
+	}
+}
