@@ -26,11 +26,5 @@ public class NVWa {
 		Human yellowman = abstractHumanFactory.createHuman(YellowHuman.class);
 		yellowman.getColor();
 		yellowman.talk();
-		
-		//通过多工厂模式创
-		System.out.println("多工厂模式");
-		Human blackMan = (Human) new BlackHumanFactory().creatman();
-		blackMan.getColor();
-		blackMan.talk();
 	}
 }
