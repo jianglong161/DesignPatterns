@@ -23,7 +23,7 @@ public class HanFeiZi implements IHanFeiZIi{
 	//韩非子要吃娱乐
 	@Override
 	public void haveFun() {
-		System.out.println("韩非子：娱乐了");
+		System.out.println("韩非子：要吃早饭了");
 		this.isHavingFun = true;
 		this.lisi.update("韩非子在娱乐");
 	}

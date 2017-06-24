@@ -6,8 +6,6 @@ package com.example;
  *
  */
 public class HanFeiZi implements IHanFeiZIi{
-	//通过聚集方式的被观察者
-	private ILisi lisi = new Lisi();
 	//韩非子是否在吃早饭
 	private boolean isHavingBreakfast = false;
 	//韩非子是否在娱乐
@@ -17,15 +15,12 @@ public class HanFeiZi implements IHanFeiZIi{
 	public void haveBreakfast() {
 		System.out.println("韩非子，开始吃早饭。。。");
 		this.isHavingBreakfast = true;
-		//通知李斯
-		this.lisi.update("韩非子在吃早饭");
 	}
 	//韩非子要吃娱乐
 	@Override
 	public void haveFun() {
-		System.out.println("韩非子：娱乐了");
+		System.out.println("韩非子：要吃早饭了");
 		this.isHavingFun = true;
-		this.lisi.update("韩非子在娱乐");
 	}
 	public boolean isHavingBreakfast() {
 		return isHavingBreakfast;
