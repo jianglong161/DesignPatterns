@@ -1,0 +1,42 @@
+package com.example;
+
+import java.util.ArrayList;
+
+/**
+ * 被观察这的是实现类，韩非子的加强版本
+ * @author Still2Almost
+ *
+ */
+public class HanFeiZiZdd implements IHanFeiZIi,Observable{
+	//定义一个变长数据，存放所有的观察者
+	private ArrayList<Observable> observableList = new ArrayList<Observable>();
+	
+	//增加观察者
+	@Override
+	public void addObservable(Observable observable) {
+		this.observableList.add(observable);
+	}
+	//删除观察者
+	public void deleteObservable(Observable observable) {
+		this.observableList.remove(observable);
+	}
+	//通知所有的观察者
+	public void notifObservers(String context) {
+		for(Observable observable: observableList){
+			
+		}
+	}
+
+	@Override
+	public void haveBreakfast() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void haveFun() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

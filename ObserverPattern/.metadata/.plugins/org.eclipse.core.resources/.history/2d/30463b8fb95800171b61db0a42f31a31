@@ -14,30 +14,28 @@ public class HanFeiZiZdd implements IHanFeiZIi,Observable{
 	//增加观察者
 	@Override
 	public void addObservable(Observer observer) {
-		this.observrList.add(observer);
+		this.observableList.add(observer);
 	}
 	//删除观察者
 	public void deleteObservable(Observer observer) {
-		this.observrList.remove(observer);
+		this.observableList.remove(observer);
 	}
 	//通知所有的观察者
 	public void notifObservers(String context) {
-		for(Observer observer: observrList){
-			observer.update(context);
+		for(Observer observab: observrList){
+			observable.
 		}
 	}
 
 	@Override
 	public void haveBreakfast() {
-		System.out.println("韩非子开始吃饭了");
-		//通知所有观察者
-		this.notifObservers("韩非子在吃饭");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void haveFun() {
-		System.out.println("韩非子开始娱乐了");
-		this.notifObservers("韩非子在娱乐");
+		// TODO Auto-generated method stub
 		
 	}
 

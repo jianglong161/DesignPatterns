@@ -22,22 +22,20 @@ public class HanFeiZiZdd implements IHanFeiZIi,Observable{
 	}
 	//通知所有的观察者
 	public void notifObservers(String context) {
-		for(Observer observer: observrList){
-			observer.update(context);
+		for(Observer observab: observrList){
+			observable.
 		}
 	}
 
 	@Override
 	public void haveBreakfast() {
-		System.out.println("韩非子开始吃饭了");
-		//通知所有观察者
-		this.notifObservers("韩非子在吃饭");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void haveFun() {
-		System.out.println("韩非子开始娱乐了");
-		this.notifObservers("韩非子在娱乐");
+		// TODO Auto-generated method stub
 		
 	}
 
