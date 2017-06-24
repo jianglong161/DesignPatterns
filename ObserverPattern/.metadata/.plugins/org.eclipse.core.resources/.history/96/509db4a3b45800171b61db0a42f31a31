@@ -40,13 +40,6 @@ class Spy extends Thread{
 					this.lisi.update("韩非子在吃早饭");
 					//重置状态
 					this.hanFeiZi.setHavingBreakfast(false);
-				}else{
-					//否则监视娱乐
-					if(this.hanFeiZi.isHavingFun()){
-						this.lisi.update("韩非子来娱乐");
-						//重置状态
-						this.hanFeiZi.setHavingFun(false);
-					}
 				}
 			}
 		}

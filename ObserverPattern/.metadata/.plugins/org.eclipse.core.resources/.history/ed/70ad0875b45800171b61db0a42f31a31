@@ -30,25 +30,4 @@ class Spy extends Thread{
 		this.lisi = lisi;
 		this.type = type;
 	}
-	@Override
-	public void run(){
-		while (true) {
-			//监控是否在在吃早饭
-			if(this.type.equals("break")){
-				//如果发现韩非子在吃早饭，就通知李斯
-				if(this.hanFeiZi.isHavingBreakfast()){
-					this.lisi.update("韩非子在吃早饭");
-					//重置状态
-					this.hanFeiZi.setHavingBreakfast(false);
-				}else{
-					//否则监视娱乐
-					if(this.hanFeiZi.isHavingFun()){
-						this.lisi.update("韩非子来娱乐");
-						//重置状态
-						this.hanFeiZi.setHavingFun(false);
-					}
-				}
-			}
-		}
-	}
 }
