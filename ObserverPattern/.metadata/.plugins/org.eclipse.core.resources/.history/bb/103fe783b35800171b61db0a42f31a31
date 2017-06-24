@@ -1,0 +1,14 @@
+package com.example;
+/**
+ * 一旦自己观察的对象发生了变化，自己立刻要行动起来
+ * @author Still2Almost
+ *
+ */
+public class Lisi implements ILisi{
+	//首先李斯是个观察者，一旦韩非子有活动，他就直到，他就要向老板报告
+	@Override
+	public void update(String context) {
+		
+	}
+
+}

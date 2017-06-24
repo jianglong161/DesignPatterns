@@ -1,0 +1,15 @@
+package com.example;
+/**
+ * 一旦自己观察的对象发生了变化，自己立刻要行动起来
+ * @author Still2Almost
+ *
+ */
+public class Lisi implements ILisi{
+
+	@Override
+	public void update(String context) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
