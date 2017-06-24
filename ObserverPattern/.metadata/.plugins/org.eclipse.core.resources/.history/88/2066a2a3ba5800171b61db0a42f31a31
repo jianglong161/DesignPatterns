@@ -1,0 +1,14 @@
+package com.example;
+
+public class WangLi implements Observer{
+
+	@Override
+	public void update(String context) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void cry(String str){
+		System.out.println("因为" + str + "就哭了");
+	}
+
+}

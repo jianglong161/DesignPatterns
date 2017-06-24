@@ -1,0 +1,19 @@
+package com.example;
+/**
+ * 具体的观察者
+ * @author Still2Almost
+ *
+ */
+public class LisiAdd implements Observer{
+
+	@Override
+	public void update(String context) {
+		// TODO Auto-generated method stub
+		
+	}
+	private void reportToinshihuang(String reportContext){
+		System.out.println("李斯:报告老板，韩非子有活动了------->"
+				+ reportContext);
+	}
+
+}

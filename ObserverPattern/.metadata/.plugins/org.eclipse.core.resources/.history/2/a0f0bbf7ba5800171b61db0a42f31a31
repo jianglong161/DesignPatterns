@@ -5,11 +5,9 @@ public class Client {
 		//定义出韩非子和李斯
 		HanFeiZiZdd hanFeiZi = new HanFeiZiZdd();
 		WangLi wangLi = new WangLi();
-		LisiAdd lisi = new LisiAdd();
+		Lisi lisi = new Lisi();
 		hanFeiZi.addObservable(wangLi);
 		hanFeiZi.addObservable(lisi);
-		//看看韩非子在干啥
-		hanFeiZi.haveBreakfast();
 		
 	}
 }

@@ -1,0 +1,15 @@
+package com.example;
+/**
+ * 具体的观察者
+ * @author Still2Almost
+ *
+ */
+public class LisiAdd implements Observer{
+
+	@Override
+	public void update(String context) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
