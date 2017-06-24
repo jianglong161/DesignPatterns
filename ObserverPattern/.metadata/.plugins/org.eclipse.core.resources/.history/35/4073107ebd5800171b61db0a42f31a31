@@ -1,0 +1,10 @@
+package com.common;
+/**
+ * 被观察者
+ * @author Still2Almost
+ *
+ */
+public abstract class Subject {
+	//定义一个观察这数据
+	private Ve
+}

@@ -1,0 +1,15 @@
+package com.common;
+/**
+ * 具体的观察者
+ * @author Still2Almost
+ *
+ */
+public  class ConcreteObserver implements Observer{
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
