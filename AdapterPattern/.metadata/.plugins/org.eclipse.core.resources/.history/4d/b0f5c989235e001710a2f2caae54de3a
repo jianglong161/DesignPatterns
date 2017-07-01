@@ -1,0 +1,30 @@
+package com.example;
+
+import java.util.Map;
+
+/**
+ * 劳务公司的人员的实现
+ * @author Still2Almost
+ *
+ */
+public class OuterUser implements IOuterUser{
+
+	@Override
+	public Map getUserBaseInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Map getUserOfficeInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Map getUserHomeInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

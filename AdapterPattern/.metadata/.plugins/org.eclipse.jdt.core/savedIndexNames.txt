@@ -13,7 +13,6 @@ INDEX VERSION 1.129+D:\DesignPatterns\AdapterPattern\.metadata\.plugins\org.ecli
 3068640910.index
 2827973200.index
 2137645919.index
-2025623482.index
 1334412443.index
 3423988565.index
 3778645487.index
