@@ -1,0 +1,48 @@
+package com.example;
+
+import java.util.Map;
+
+/**
+ * ÖÐ×ª½ÇÉ«
+ * @author Still2Almost
+ *
+ */
+public class OuterUserInfo extends OuterUser implements IUserInfo{
+	private Map baseInfo = super.getUserBaseInfo();
+	@Override
+	public String getUserName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getHomeAddress() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getMoileNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getOfficeTelNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getJobPosition() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getHomeTelNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

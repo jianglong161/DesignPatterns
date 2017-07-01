@@ -1,0 +1,49 @@
+package com.example;
+
+import java.util.Map;
+
+/**
+ * 中转角色
+ * @author Still2Almost
+ *
+ */
+public class OuterUserInfo extends OuterUser implements IUserInfo{
+	private Map baseInfo = super.getUserBaseInfo();		//员工的基本信息
+	private Map homeInfo = super.getUserHomeInfo();		//员工的家庭信息
+	private Map officeInfo = super.getUserOfficeInfo();	//员工的工作信息
+	@Override
+	public String getUserName() {
+		return null;
+	}
+
+	@Override
+	public String getHomeAddress() {
+		String homeAddress = this.homeInfo.get("homeAddress");
+		return null;
+	}
+
+	@Override
+	public String getMoileNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getOfficeTelNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getJobPosition() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getHomeTelNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
