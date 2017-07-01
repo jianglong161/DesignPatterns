@@ -1,0 +1,9 @@
+package com.common;
+/**
+ * Ä¿±ê½ÇÉ«
+ * @author Still2Almost
+ *
+ */
+public interface Target {
+
+}
