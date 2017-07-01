@@ -1,0 +1,8 @@
+package com.example;
+/**
+ * 劳动服务公司的人员信息的接口
+ * @author Still2Almost
+ *
+ */
+public interface IOuterUser {
+}
