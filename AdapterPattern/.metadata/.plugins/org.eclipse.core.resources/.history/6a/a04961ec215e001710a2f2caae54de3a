@@ -1,0 +1,14 @@
+package com.example;
+/**
+ * 员工信息接口
+ * @author Still2Almost
+ *
+ */
+public interface IUserInfo {
+	//获得用户姓名
+	public String getUserName();
+	//获得家庭住址
+	public String getHomeAddress();
+	//手机号码
+	public String getMoileNumber();
+}

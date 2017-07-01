@@ -1,0 +1,9 @@
+package com.example;
+/**
+ * 员工信息接口
+ * @author Still2Almost
+ *
+ */
+public interface IUserInfo {
+
+}

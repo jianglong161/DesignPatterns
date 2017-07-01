@@ -1,0 +1,20 @@
+package com.example;
+/**
+ * 员工信息接口
+ * @author Still2Almost
+ *
+ */
+public interface IUserInfo {
+	//获得用户姓名
+	public String getUserName();
+	//获得家庭住址
+	public String getHomeAddress();
+	//手机号码
+	public String getMoileNumber();
+	//办公电话
+	public String getOfficeTelNumber();
+	//这个人的职位
+	public String getJobPosition();
+	//获得家庭电话，这点不好，我不喜欢打家庭电话讨论工作
+	public String getHomeTelNumber();
+}
