@@ -1,0 +1,15 @@
+package com.common;
+/**
+ * 目标角色的实现类
+ * @author Still2Almost
+ *
+ */
+public class ConcreteTarget implements Target{
+
+	@Override
+	public void request() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
