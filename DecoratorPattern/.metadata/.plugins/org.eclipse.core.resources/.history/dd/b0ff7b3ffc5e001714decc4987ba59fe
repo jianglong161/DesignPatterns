@@ -14,12 +14,12 @@ public class FouthGradeSchoolReport extends SchoolReport{
 		System.out.println(".....");
 		System.out.println("                  家长签字：");
 	}
-	@Override
+
 	public void sign(String name) {
 		System.out.println("家长签名：" + name);
 	}
 
-	
+	@Override
 	public void sign() {
 		// TODO Auto-generated method stub
 		
