@@ -1,0 +1,9 @@
+package com.common;
+/**
+ * ³éÏó×°ÊÎÕß
+ * @author Long
+ *
+ */
+public abstract class Decorator extends Component{
+	private Component component = null;
+}
