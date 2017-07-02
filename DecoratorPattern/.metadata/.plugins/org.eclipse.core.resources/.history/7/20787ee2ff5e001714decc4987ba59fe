@@ -1,0 +1,14 @@
+package com.example;
+/**
+ * ×î¸ß³É¼¨ÐÞÊÎ
+ * @author Long
+ *
+ */
+public class HighScoreDecoreator extends Decorator{
+
+	public HighScoreDecoreator(SchoolReport schoolReport) {
+		super(schoolReport);
+		// TODO Auto-generated constructor stub
+	}
+
+}
