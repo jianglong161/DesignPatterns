@@ -1,0 +1,14 @@
+package com.example;
+/**
+ * 修饰的抽象类
+ * @author Long
+ *
+ */
+public abstract class Decorator extends SchoolReport{
+	//首先我要知道哪个成绩单
+	private SchoolReport schoolReport;
+	//构造函数，传递成绩单过来
+	public Decorator(SchoolReport schoolReport) {
+		this.schoolReport = schoolReport;
+	}
+}

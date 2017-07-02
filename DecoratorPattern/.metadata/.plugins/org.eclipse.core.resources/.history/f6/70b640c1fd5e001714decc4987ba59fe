@@ -1,0 +1,9 @@
+package com.example;
+/**
+ * ÐÞÊÎµÄ³éÏóÀà
+ * @author Long
+ *
+ */
+public class Decorator {
+
+}
