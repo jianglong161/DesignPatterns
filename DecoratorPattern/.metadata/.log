@@ -128,3 +128,15 @@ Java Model Exception: Java Model Status [<project root> [in decoratorPattern] is
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1006 2017-07-02 15:39:07.341
 !MESSAGE <project root> [in decoratorPattern] is not on its project's build path
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-02 15:47:18.592
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-02 15:47:18.597
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-02 15:47:18.967
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-02 15:47:18.972
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
