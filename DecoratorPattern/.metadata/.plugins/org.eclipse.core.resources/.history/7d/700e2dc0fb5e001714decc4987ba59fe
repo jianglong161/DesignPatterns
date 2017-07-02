@@ -1,0 +1,21 @@
+package com.example;
+/**
+ * 四年级成绩单
+ * @author Long
+ *
+ */
+public class FouthGradeSchoolReport extends SchoolReport{
+
+	@Override
+	public void report() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void sign() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
