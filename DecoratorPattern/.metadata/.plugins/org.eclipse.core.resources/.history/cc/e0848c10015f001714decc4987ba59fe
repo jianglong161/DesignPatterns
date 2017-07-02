@@ -5,7 +5,7 @@ public class Fathre {
 		SchoolReport schoolReport = null ;
 		//schoolReport = new HighScoreDecoreator(schoolReport);
 		schoolReport = new SortDecoreator(schoolReport);
-		//schoolReport.report();
+		schoolReport.report();
 		schoolReport.sign("уехЩ");
 	}
 }

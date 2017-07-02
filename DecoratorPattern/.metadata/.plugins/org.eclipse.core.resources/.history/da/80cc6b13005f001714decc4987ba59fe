@@ -1,0 +1,10 @@
+package com.example;
+
+public class SortDecoreator extends Decorator{
+
+	public SortDecoreator(SchoolReport schoolReport) {
+		super(schoolReport);
+		// TODO Auto-generated constructor stub
+	}
+
+}
