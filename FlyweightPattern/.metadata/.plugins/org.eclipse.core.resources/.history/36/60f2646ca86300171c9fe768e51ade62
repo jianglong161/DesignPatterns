@@ -1,0 +1,15 @@
+package com.common;
+/**
+ * 抽象享元角色
+ * @author Still2Almost
+ *
+ */
+public class Flyweight {
+	//内部状态
+	private String intrinsic;
+	//外部状态
+	protected final String Extrinsic;
+	public Flyweight(String Extrinsic) {
+		this.Extrinsic = Extrinsic;
+	}
+}
