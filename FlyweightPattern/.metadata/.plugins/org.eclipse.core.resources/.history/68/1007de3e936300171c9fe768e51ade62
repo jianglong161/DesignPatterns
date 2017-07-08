@@ -1,0 +1,19 @@
+package com.example;
+
+import java.util.HashMap;
+
+/**
+ * 带对象池的工厂类
+ * @author Still2Almost
+ *
+ */
+public class SignInfoPoolFactory {
+	//池容器
+	private static HashMap<String,SingInfo> pool =
+			new HashMap<String,SingInfo>();
+	//报名信息的对象工厂
+	@Deprecated
+	public static SingInfo (){
+		return new SingInfo();
+	}
+}

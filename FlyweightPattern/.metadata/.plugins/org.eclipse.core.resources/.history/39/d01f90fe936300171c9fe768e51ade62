@@ -15,6 +15,6 @@ public class Client {
 			}
 		}
 		
-		SingInfo singInfo = SignInfoPoolFactory.getSingInfo("科目1考试地点1");
+		SingInfo singInfo = SignInfoPoolFactory.getSingInfo("科目1考试地点1")
 	}
 }
