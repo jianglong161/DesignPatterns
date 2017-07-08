@@ -1,0 +1,11 @@
+package com.example;
+/**
+ * 报考信息工厂
+ * @author Still2Almost
+ *
+ */
+public class SignInfoFactory {
+	public static SingInfo getSingInfo{
+		return new SingInfo();
+	}
+}
