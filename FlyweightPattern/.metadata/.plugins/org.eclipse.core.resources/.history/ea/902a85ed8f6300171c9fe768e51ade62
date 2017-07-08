@@ -1,0 +1,16 @@
+package com.example;
+/**
+ * 报考信息
+ * @author Still2Almost
+ *
+ */
+public class SingInfo {
+	//报名人员的id
+	private String id;
+	//考试地点
+	private String location;
+	//考试科目
+	private String subject;
+	//邮寄地址
+	private String postAddreess;
+}

@@ -1,0 +1,12 @@
+package com.example;
+/**
+ * ±®øº–≈œ¢
+ * @author Still2Almost
+ *
+ */
+public class SingInfo {
+	private String id;
+	private String location;
+	private String subject;
+	private String postAddreess;
+}

@@ -1,0 +1,9 @@
+package com.example;
+/**
+ * ±®øº–≈œ¢
+ * @author Still2Almost
+ *
+ */
+public class SingInfo {
+	private String id;
+}
