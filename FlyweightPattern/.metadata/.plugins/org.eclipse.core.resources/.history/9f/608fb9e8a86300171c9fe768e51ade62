@@ -1,0 +1,13 @@
+package com.common;
+/**
+ * 具体享元角色
+ * @author Still2Almost
+ *
+ */
+public class ConcreteFlyweight extends Flyweight{
+
+	public ConcreteFlyweight(String Extrinsic) {
+		super(Extrinsic);
+	}
+
+}
